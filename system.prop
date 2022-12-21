@@ -9,6 +9,8 @@ camera.disable_zsl_mode=true
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=1
 persist.vendor.color.matrix=2
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=20
 
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
