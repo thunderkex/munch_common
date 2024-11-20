@@ -16,7 +16,7 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <com.android.settingslib.widget.MainSwitchPreference
+    <com.android.settingslib.widget.SwitchPreferenceCompat
         android:defaultValue="false"
         android:key="touch_game_mode"
         android:title="@string/touch_game_mode_title" />

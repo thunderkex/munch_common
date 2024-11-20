@@ -18,7 +18,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/dirac_title">
 
-    <com.android.settingslib.widget.MainSwitchPreference
+    <com.android.settingslib.widget.SwitchPreferenceCompat
         android:defaultValue="false"
         android:key="dirac_enable"
         android:title="@string/dirac_enable" />
@@ -50,7 +50,7 @@
         android:summary="%s"
         android:icon="@drawable/ic_scenes" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="dirac_hifi_pref"
         android:defaultValue="false"
         android:title="@string/dirac_hifi_title"
